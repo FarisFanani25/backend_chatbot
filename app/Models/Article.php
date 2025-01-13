@@ -11,9 +11,10 @@ class Article extends Model
 
     // Tentukan primary key
     protected $primaryKey = 'id_artikel';
+    // protected $tables = 'articles';
 
     // Primary key auto-increment
-    public $incrementing = true;
+    // public $incrementing = true;
 
     // Kolom yang bisa diisi
     protected $fillable = [
